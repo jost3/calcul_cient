@@ -45,10 +45,13 @@
             button16 = new Button();
             button19 = new Button();
             button20 = new Button();
+            button14 = new Button();
+            tbx = new TextBox();
             SuspendLayout();
             // 
             // button1
             // 
+            button1.Font = new Font("Verdana", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
             button1.Location = new Point(24, 91);
             button1.Name = "button1";
             button1.Size = new Size(45, 45);
@@ -59,6 +62,7 @@
             // 
             // button2
             // 
+            button2.Font = new Font("Verdana", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
             button2.Location = new Point(24, 299);
             button2.Name = "button2";
             button2.Size = new Size(109, 45);
@@ -68,6 +72,7 @@
             // 
             // button3
             // 
+            button3.Font = new Font("Verdana", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
             button3.Location = new Point(24, 146);
             button3.Name = "button3";
             button3.Size = new Size(45, 45);
@@ -77,6 +82,7 @@
             // 
             // button4
             // 
+            button4.Font = new Font("Verdana", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
             button4.Location = new Point(24, 197);
             button4.Name = "button4";
             button4.Size = new Size(45, 45);
@@ -87,6 +93,7 @@
             // 
             // button5
             // 
+            button5.Font = new Font("Verdana", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
             button5.Location = new Point(24, 248);
             button5.Name = "button5";
             button5.Size = new Size(45, 45);
@@ -96,6 +103,7 @@
             // 
             // button6
             // 
+            button6.Font = new Font("Verdana", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
             button6.Location = new Point(88, 248);
             button6.Name = "button6";
             button6.Size = new Size(45, 45);
@@ -106,6 +114,7 @@
             // 
             // button7
             // 
+            button7.Font = new Font("Verdana", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
             button7.Location = new Point(88, 197);
             button7.Name = "button7";
             button7.Size = new Size(45, 45);
@@ -115,6 +124,7 @@
             // 
             // button8
             // 
+            button8.Font = new Font("Verdana", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
             button8.Location = new Point(88, 146);
             button8.Name = "button8";
             button8.Size = new Size(45, 45);
@@ -125,6 +135,7 @@
             // 
             // button9
             // 
+            button9.Font = new Font("Verdana", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
             button9.Location = new Point(151, 299);
             button9.Name = "button9";
             button9.Size = new Size(45, 45);
@@ -134,6 +145,7 @@
             // 
             // button10
             // 
+            button10.Font = new Font("Verdana", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
             button10.Location = new Point(88, 95);
             button10.Name = "button10";
             button10.Size = new Size(45, 45);
@@ -143,6 +155,7 @@
             // 
             // button11
             // 
+            button11.Font = new Font("Verdana", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
             button11.Location = new Point(151, 248);
             button11.Name = "button11";
             button11.Size = new Size(45, 45);
@@ -152,6 +165,7 @@
             // 
             // button12
             // 
+            button12.Font = new Font("Verdana", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
             button12.Location = new Point(151, 197);
             button12.Name = "button12";
             button12.Size = new Size(45, 45);
@@ -161,6 +175,7 @@
             // 
             // button13
             // 
+            button13.Font = new Font("Verdana", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
             button13.Location = new Point(151, 146);
             button13.Name = "button13";
             button13.Size = new Size(45, 45);
@@ -170,6 +185,7 @@
             // 
             // button15
             // 
+            button15.Font = new Font("Verdana", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
             button15.Location = new Point(151, 95);
             button15.Name = "button15";
             button15.Size = new Size(45, 45);
@@ -179,15 +195,17 @@
             // 
             // button16
             // 
-            button16.Location = new Point(215, 197);
+            button16.Font = new Font("Verdana", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            button16.Location = new Point(215, 248);
             button16.Name = "button16";
-            button16.Size = new Size(45, 147);
+            button16.Size = new Size(45, 96);
             button16.TabIndex = 19;
             button16.Text = "=";
             button16.UseVisualStyleBackColor = true;
             // 
             // button19
             // 
+            button19.Font = new Font("Verdana", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
             button19.Location = new Point(215, 146);
             button19.Name = "button19";
             button19.Size = new Size(45, 45);
@@ -197,6 +215,7 @@
             // 
             // button20
             // 
+            button20.Font = new Font("Verdana", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
             button20.Location = new Point(215, 95);
             button20.Name = "button20";
             button20.Size = new Size(45, 45);
@@ -204,11 +223,33 @@
             button20.Text = "/";
             button20.UseVisualStyleBackColor = true;
             // 
+            // button14
+            // 
+            button14.Font = new Font("Verdana", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            button14.Location = new Point(215, 197);
+            button14.Name = "button14";
+            button14.Size = new Size(45, 45);
+            button14.TabIndex = 20;
+            button14.Text = "<-";
+            button14.UseVisualStyleBackColor = true;
+            // 
+            // tbx
+            // 
+            tbx.Font = new Font("Segoe Print", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            tbx.Location = new Point(24, 30);
+            tbx.Name = "tbx";
+            tbx.ReadOnly = true;
+            tbx.Size = new Size(236, 50);
+            tbx.TabIndex = 21;
+            tbx.TextAlign = HorizontalAlignment.Right;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(372, 425);
+            Controls.Add(tbx);
+            Controls.Add(button14);
             Controls.Add(button16);
             Controls.Add(button19);
             Controls.Add(button20);
@@ -230,6 +271,7 @@
             Text = "Form1";
             Load += Form1_Load;
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -251,5 +293,7 @@
         private Button button16;
         private Button button19;
         private Button button20;
+        private Button button14;
+        private TextBox tbx;
     }
 }
