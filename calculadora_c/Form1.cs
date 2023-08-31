@@ -103,6 +103,19 @@ namespace calculadora_c
                     sum = obj.sumar((primero), (segundo));
                     tbx.Text = sum.ToString();
                     break;
+                case "-":
+                    rest = obj2.restar((primero), (segundo));
+                    tbx.Text = rest.ToString();
+                    break;
+                case "*":
+                    mult = obj3.musltiplicar((primero), (segundo));
+                    tbx.Text = mult.ToString();
+                    break;
+
+                case "/":
+                    div = obj4.dividir((primero), (segundo));
+                    tbx.Text = div.ToString();
+                    break;
             }
         }
 
@@ -119,6 +132,19 @@ namespace calculadora_c
         private void btn4_Click_1(object sender, EventArgs e)
         {
             tbx.Text = tbx.Text + "4";
+        }
+
+        private void btn_elim_Click(object sender, EventArgs e)
+        {
+            tbx.Clear();
+        }
+
+        private void btn_retroceder_Click(object sender, EventArgs e)
+        {
+            if (tbx.Text.Length == 1)
+                tbx.Text = "";
+            else
+                tbx.Text = tbx.Text.Substring(0, tbx.Text.Length - 1);
         }
     }
 }

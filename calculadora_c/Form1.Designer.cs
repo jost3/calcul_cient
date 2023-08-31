@@ -222,6 +222,7 @@
             btn_elim.TabIndex = 16;
             btn_elim.Text = "CE";
             btn_elim.UseVisualStyleBackColor = true;
+            btn_elim.Click += btn_elim_Click;
             // 
             // btn_div
             // 
@@ -243,6 +244,7 @@
             btn_retroceder.TabIndex = 20;
             btn_retroceder.Text = "<-";
             btn_retroceder.UseVisualStyleBackColor = true;
+            btn_retroceder.Click += btn_retroceder_Click;
             // 
             // tbx
             // 
