@@ -47,6 +47,7 @@
             btn_div = new Button();
             btn_retroceder = new Button();
             tbx = new TextBox();
+            label1 = new Label();
             SuspendLayout();
             // 
             // btn_sum
@@ -294,12 +295,24 @@
             tbx.TabIndex = 21;
             tbx.TextAlign = HorizontalAlignment.Right;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Tempus Sans ITC", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Location = new Point(40, 22);
+            label1.Name = "label1";
+            label1.Size = new Size(201, 31);
+            label1.TabIndex = 22;
+            label1.Text = "CALCULADORA";
+            label1.Click += label1_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(276, 412);
+            Controls.Add(label1);
             Controls.Add(tbx);
             Controls.Add(btn_retroceder);
             Controls.Add(btn_igual);
@@ -346,5 +359,6 @@
         private Button btn_div;
         private Button btn_retroceder;
         private TextBox tbx;
+        private Label label1;
     }
 }

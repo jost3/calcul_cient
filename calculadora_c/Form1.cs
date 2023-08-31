@@ -147,5 +147,10 @@ namespace calculadora_c
         {
             tbx.Text = tbx.Text + "0";
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
