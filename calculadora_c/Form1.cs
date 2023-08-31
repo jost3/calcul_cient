@@ -4,7 +4,7 @@ namespace calculadora_c
     {
         double primero;
         double segundo;
-        double operador;
+        string operador;
         public Form1()
         {
             InitializeComponent();
@@ -64,6 +64,34 @@ namespace calculadora_c
         {
             tbx.Text = tbx.Text + ".";
 
+        }
+        private void btn_suma_Click(object sender, EventArgs e)
+        {
+            operador = "+";
+            primero = double.Parse(tbx.Text);
+            tbx.Clear();
+
+        }
+
+        private void btn_rest_Click(object sender, EventArgs e)
+        {
+            operador = "-";
+            primero = double.Parse(tbx.Text);
+            tbx.Clear();
+        }
+
+        private void btn_mult_Click(object sender, EventArgs e)
+        {
+            operador = "*";
+            primero = double.Parse(tbx.Text);
+            tbx.Clear();
+        }
+
+        private void btn_div_Click(object sender, EventArgs e)
+        {
+            operador = "/";
+            primero = double.Parse(tbx.Text);
+            tbx.Clear();
         }
     }
 }

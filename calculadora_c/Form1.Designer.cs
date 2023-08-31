@@ -155,6 +155,7 @@
             btn_rest.TabIndex = 5;
             btn_rest.Text = "-";
             btn_rest.UseVisualStyleBackColor = true;
+            btn_rest.Click += btn_rest_Click;
             // 
             // btn3
             // 
@@ -197,6 +198,7 @@
             btn_mult.TabIndex = 10;
             btn_mult.Text = "*";
             btn_mult.UseVisualStyleBackColor = true;
+            btn_mult.Click += btn_mult_Click;
             // 
             // btn_igual
             // 
@@ -227,6 +229,7 @@
             btn_div.TabIndex = 15;
             btn_div.Text = "/";
             btn_div.UseVisualStyleBackColor = true;
+            btn_div.Click += btn_div_Click;
             // 
             // btn_retroceder
             // 
