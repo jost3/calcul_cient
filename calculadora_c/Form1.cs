@@ -14,10 +14,6 @@ namespace calculadora_c
         clases.CIsResta obj2 = new clases.CIsResta();
         clases.CIsMultiplicacion obj3 = new clases.CIsMultiplicacion();
         clases.CIsDivicion obj4 = new clases.CIsDivicion();
-        private void btn0_Click(object sender, EventArgs e)
-        {
-            tbx.Text = tbx.Text + "0";
-        }
 
         private void btn1_Click(object sender, EventArgs e)
         {
@@ -145,6 +141,11 @@ namespace calculadora_c
                 tbx.Text = "";
             else
                 tbx.Text = tbx.Text.Substring(0, tbx.Text.Length - 1);
+        }
+
+        private void btn0_Click_1(object sender, EventArgs e)
+        {
+            tbx.Text = tbx.Text + "0";
         }
     }
 }
