@@ -52,7 +52,7 @@
             // btn_sum
             // 
             btn_sum.Font = new Font("Verdana", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            btn_sum.Location = new Point(23, 145);
+            btn_sum.Location = new Point(23, 149);
             btn_sum.Name = "btn_sum";
             btn_sum.Size = new Size(45, 45);
             btn_sum.TabIndex = 0;
@@ -90,7 +90,7 @@
             btn4.TabIndex = 3;
             btn4.Text = "4";
             btn4.UseVisualStyleBackColor = true;
-            btn4.Click += btn2_Click;
+            btn4.Click += btn4_Click_1;
             // 
             // btn1
             // 
@@ -101,6 +101,7 @@
             btn1.TabIndex = 4;
             btn1.Text = "1";
             btn1.UseVisualStyleBackColor = true;
+            btn1.Click += btn1_Click_1;
             // 
             // btn2
             // 
@@ -166,6 +167,7 @@
             btn3.TabIndex = 14;
             btn3.Text = "3";
             btn3.UseVisualStyleBackColor = true;
+            btn3.Click += btn3_Click_1;
             // 
             // btn6
             // 
@@ -209,6 +211,7 @@
             btn_igual.TabIndex = 19;
             btn_igual.Text = "=";
             btn_igual.UseVisualStyleBackColor = true;
+            btn_igual.Click += btn_igual_Click;
             // 
             // btn_elim
             // 

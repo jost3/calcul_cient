@@ -1,0 +1,17 @@
+C:\Users\Alumno\Desktop\calcu\calculadora_c\bin\Debug\net6.0-windows\calculadora_c.exe
+C:\Users\Alumno\Desktop\calcu\calculadora_c\bin\Debug\net6.0-windows\calculadora_c.deps.json
+C:\Users\Alumno\Desktop\calcu\calculadora_c\bin\Debug\net6.0-windows\calculadora_c.runtimeconfig.json
+C:\Users\Alumno\Desktop\calcu\calculadora_c\bin\Debug\net6.0-windows\calculadora_c.dll
+C:\Users\Alumno\Desktop\calcu\calculadora_c\bin\Debug\net6.0-windows\calculadora_c.pdb
+C:\Users\Alumno\Desktop\calcu\calculadora_c\obj\Debug\net6.0-windows\calculadora_c.csproj.AssemblyReference.cache
+C:\Users\Alumno\Desktop\calcu\calculadora_c\obj\Debug\net6.0-windows\calculadora_c.Form1.resources
+C:\Users\Alumno\Desktop\calcu\calculadora_c\obj\Debug\net6.0-windows\calculadora_c.csproj.GenerateResource.cache
+C:\Users\Alumno\Desktop\calcu\calculadora_c\obj\Debug\net6.0-windows\calculadora_c.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alumno\Desktop\calcu\calculadora_c\obj\Debug\net6.0-windows\calculadora_c.AssemblyInfoInputs.cache
+C:\Users\Alumno\Desktop\calcu\calculadora_c\obj\Debug\net6.0-windows\calculadora_c.AssemblyInfo.cs
+C:\Users\Alumno\Desktop\calcu\calculadora_c\obj\Debug\net6.0-windows\calculadora_c.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Desktop\calcu\calculadora_c\obj\Debug\net6.0-windows\calculadora_c.dll
+C:\Users\Alumno\Desktop\calcu\calculadora_c\obj\Debug\net6.0-windows\refint\calculadora_c.dll
+C:\Users\Alumno\Desktop\calcu\calculadora_c\obj\Debug\net6.0-windows\calculadora_c.pdb
+C:\Users\Alumno\Desktop\calcu\calculadora_c\obj\Debug\net6.0-windows\calculadora_c.genruntimeconfig.cache
+C:\Users\Alumno\Desktop\calcu\calculadora_c\obj\Debug\net6.0-windows\ref\calculadora_c.dll

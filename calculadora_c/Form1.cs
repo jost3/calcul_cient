@@ -21,22 +21,19 @@ namespace calculadora_c
 
         private void btn1_Click(object sender, EventArgs e)
         {
-            tbx.Text = tbx.Text + "1";
-        }
-
-        private void btn2_Click(object sender, EventArgs e)
-        {
-            tbx.Text = tbx.Text + "2";
+            operador = "+";
+            primero = double.Parse(tbx.Text);
+            tbx.Clear();
         }
 
         private void btn3_Click(object sender, EventArgs e)
         {
-            tbx.Text = tbx.Text + "3";
+            tbx.Text = tbx.Text + "2";
         }
 
         private void btn4_Click(object sender, EventArgs e)
         {
-            tbx.Text = tbx.Text + "4";
+            tbx.Text = tbx.Text + "8";
         }
 
         private void btn5_Click(object sender, EventArgs e)
@@ -54,11 +51,6 @@ namespace calculadora_c
             tbx.Text = tbx.Text + "7";
         }
 
-        private void btn8_Click(object sender, EventArgs e)
-        {
-            tbx.Text = tbx.Text + "8";
-        }
-
         private void btn9_Click(object sender, EventArgs e)
         {
             tbx.Text = tbx.Text + "9";
@@ -69,7 +61,7 @@ namespace calculadora_c
             tbx.Text = tbx.Text + ".";
 
         }
-        private void btn_suma_Click(object sender, EventArgs e)
+        private void btn_sum_Click(object sender, EventArgs e)
         {
             operador = "+";
             primero = double.Parse(tbx.Text);
@@ -96,6 +88,37 @@ namespace calculadora_c
             operador = "/";
             primero = double.Parse(tbx.Text);
             tbx.Clear();
+        }
+
+        private void btn_igual_Click(object sender, EventArgs e)
+        {
+            segundo = double.Parse(tbx.Text);
+            double sum;
+            double rest;
+            double mult;
+            double div;
+            switch (operador)
+            {
+                case "+":
+                    sum = obj.sumar((primero), (segundo));
+                    tbx.Text = sum.ToString();
+                    break;
+            }
+        }
+
+        private void btn1_Click_1(object sender, EventArgs e)
+        {
+            tbx.Text = tbx.Text + "1";
+        }
+
+        private void btn3_Click_1(object sender, EventArgs e)
+        {
+            tbx.Text = tbx.Text + "3";
+        }
+
+        private void btn4_Click_1(object sender, EventArgs e)
+        {
+            tbx.Text = tbx.Text + "4";
         }
     }
 }
