@@ -10,6 +10,10 @@ namespace calculadora_c
             InitializeComponent();
         }
 
+        clases.CIsSuma obj = new clases.CIsSuma();
+        clases.CIsResta obj2 = new clases.CIsResta();
+        clases.CIsMultiplicacion obj3 = new clases.CIsMultiplicacion();
+        clases.CIsDivicion obj4 = new clases.CIsDivicion();
         private void btn0_Click(object sender, EventArgs e)
         {
             tbx.Text = tbx.Text + "0";
