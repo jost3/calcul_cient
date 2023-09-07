@@ -1,0 +1,5 @@
+C:\Users\Alumno\Desktop\calculadora_c.exe
+C:\Users\Alumno\Desktop\calculadora_c.dll
+C:\Users\Alumno\Desktop\calculadora_c.deps.json
+C:\Users\Alumno\Desktop\calculadora_c.runtimeconfig.json
+C:\Users\Alumno\Desktop\calculadora_c.pdb

@@ -152,5 +152,10 @@ namespace calculadora_c
         {
 
         }
+
+        private void tbx_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

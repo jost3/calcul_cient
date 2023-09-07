@@ -286,7 +286,7 @@
             // 
             // tbx
             // 
-            tbx.BackColor = Color.Silver;
+            tbx.BackColor = Color.FromArgb(192, 255, 192);
             tbx.Font = new Font("Segoe Print", 18F, FontStyle.Bold, GraphicsUnit.Point);
             tbx.Location = new Point(23, 84);
             tbx.Name = "tbx";
@@ -294,6 +294,7 @@
             tbx.Size = new Size(236, 50);
             tbx.TabIndex = 21;
             tbx.TextAlign = HorizontalAlignment.Right;
+            tbx.TextChanged += tbx_TextChanged;
             // 
             // label1
             // 
@@ -310,7 +311,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.White;
+            BackColor = Color.Silver;
             ClientSize = new Size(276, 412);
             Controls.Add(label1);
             Controls.Add(tbx);
